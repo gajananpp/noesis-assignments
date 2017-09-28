@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+
+        <link rel="icon" type="image/png" sizes="32x32" href="">
+
+        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="app.css">
+
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular.min.js"></script>
+        <script type="text/javascript" src="app.module.js"></script>        
+        <script type="text/javascript" src="check-palindrome/check-palindrome.module.js"></script>        
+        <script type="text/javascript" src="check-palindrome/check-palindrome.component.js"></script>        
+        
+        <title>Palindrome Check</title>
+    </head>
+    <body>
+        <div>
+            <h1 class="text-center app-title">Palindrome Check</h1>
+        </div>
+
+        <div ng-app="palindromeApp">
+            <check-palindrome></check-palindrome>
+        </div>
+    </body>
+</html>

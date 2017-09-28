@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.vcenter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.app-title {
+    background: url('images/matrix-clip.jpg');
+    background-repeat: repeat;
+    background-position: 0 0;   
+    color: transparent;
+    -webkit-font-smoothing:antialiased;
+    -webkit-background-clip:text;
+    -moz-background-clip:text;
+    background-clip:text;
+    -webkit-text-fill-color:transparent;
+    margin:0;
+    font-size: 90px;
+    font-weight: bold;
+    
+    -webkit-animation: animatedbg 5s linear infinite;
+    -moz-animation:animatedbg 5s linear infinite;
+    -ms-animation:animatedbg 5s linear infinite;
+    -o-animation:animatedbg 5s linear infinite;
+    animation:animatedbg 5s linear infinite;
+}
+
+.input-card {
+    width: 100%;
+    height: 300px;
+    margin-top: 100px;
+    background: url('images/board.jpg');
+    background-repeat: repeat;
+    background-position: 0 0;   
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 45px, rgba(0, 0, 0, 0.22) 0px 10px 18px;
+}
+
+.answer {
+    padding: 10px;
+    font-size: 18px;
+}
+.answer-prime  {
+    color: green;
+}
+.answer-notprime {
+    color: red;
+}
+
+
+
+/* .app-title animation */
+
+@keyframes animatedbg {
+    from {
+        background-position:0 100%
+    }
+    to {
+        background-position:0 0
+    }
+}
+    @-webkit-keyframes animatedbg {
+    from {
+        background-position:0 100%
+    }
+    to {
+        background-position:0 0
+    }
+}
+    @-ms-keyframes animatedbg {
+    from {
+        background-position:0 100%
+    }
+    to {
+        background-position:0 0
+    }
+}
+    @-moz-keyframes animatedbg {
+    from {
+        background-position:0 100%
+    }
+    to {
+        background-position:0 0
+    }
+}
